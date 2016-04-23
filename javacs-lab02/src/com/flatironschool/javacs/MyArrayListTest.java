@@ -65,6 +65,7 @@ public class MyArrayListTest {
 	 */
 	@Test
 	public void testAddIntT() {
+		//System.out.println(Arrays.toString(mal.toArray()));
 		mal.add(1, 5);
 		//System.out.println(Arrays.toString(mal.toArray()));
 		assertThat(mal.get(1), is(new Integer(5)));
